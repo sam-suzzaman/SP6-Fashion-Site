@@ -15,7 +15,6 @@ body {
 
 /*=====style of  heading-1===== */
 .heading-1 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 80px;
@@ -25,7 +24,6 @@ body {
 
 /*=====style of subtitle-1===== */
 .subtitle-1 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -36,7 +34,6 @@ body {
 
 /*=====style of  heading-2=====*/
 .heading-2 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -48,7 +45,6 @@ body {
 /*=====style of subtitle-2 || paragraph-2=====*/
 .subtitle-2,
 .para-2 {
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -61,7 +57,6 @@ body {
 .button-1 {
     width: 147px;
     height: 35px;
-    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -80,7 +75,6 @@ body {
 
 /*=====style of card-subtitle=====*/
 .card-subtitle {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 15px;
@@ -104,7 +98,6 @@ body {
 }
 
 .card-Header {
-    font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -115,7 +108,6 @@ body {
 /*=====style of card-price=====*/
 
 .card-price-black {
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -136,7 +128,6 @@ body {
         CODES OF HEADER SECTION 
 ==================================*/
 .header-bg {
-    /* background-color: #E5E5E5; */
     background-color: #FFFFFF;
 }
 
@@ -297,7 +288,7 @@ body {
 
 .tachen-bg .tachen-content {
     position: absolute;
-    top: 434px;
+    top: 300px;
     right: 90px;
 }
 
@@ -574,27 +565,19 @@ body {
 
 }
 
+
 @media (max-width:767px) {
-    #hero .heading-1 {
-        font-size: 28px;
+    .hero-bg {
+        background: #C2D1D4;
     }
 
-    #hero .subtitle-1 {
-        font-size: 13px;
-        font-weight: 300;
+    .hero-content {
+        justify-content: center;
+        text-align: center;
+        bottom: 30%;
     }
 }
 
-@media (max-width:575px) {
-    #hero .res-class {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #hero .res-class .button-1 {
-        margin-bottom: 10px;
-    }
-}
 
 
 
@@ -711,38 +694,25 @@ body {
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .tachen-bg {
         margin-top: 100px;
+        background: #E7F5F8;
     }
 
-    .tachen-bg .tachen-content .heading-1 {
-        font-size: 40px;
-    }
-
-    .tachen-bg .tachen-btn {
-        width: 160px;
-        height: 35px;
-        font-size: 14px;
+    .tachen-bg .tachen-content {
+        text-align: center !important;
+        position: static;
+        padding-top: 30%;
     }
 }
 
-@media (max-width:670px) {
-    .tachen-bg .tachen-content .heading-1 {
-        font-size: 28px;
-    }
-
-    .tachen-bg .tachen-content .subtitle-1 {
-        font-size: 14px;
-    }
-
-    .tachen-bg .tachen-btn {
-        width: 140px;
-        height: 35px;
-        font-size: 12px;
-        font-weight: 300;
+@media(max-width:600px) {
+    .tachen-bg .tachen-content {
+        padding-top: 40%;
     }
 }
+
 
 
 
